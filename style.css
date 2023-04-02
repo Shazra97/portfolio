@@ -1,0 +1,91 @@
+@font-face{
+    font-family: myfont;
+    src: url('./font/Montserrat/Montserrat-Regular.ttf');
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+.navbar{
+    background-color: #FAD12A;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+header a{
+    color: black!important;
+    padding-left: 3px;
+}
+header button{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+.nav-link:hover{
+    font-weight: bolder; 
+}
+.fa-brands:hover{
+    font-weight: bolder; 
+}
+main{
+    background-color: black !important;
+}
+.intro{
+    margin-top: 3% !important;
+    background-color: #FAD12A;
+    width: 8
+    0%;
+    margin: 0 auto;
+}
+.shazra button{
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 5%;
+}
+.image{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.card{
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+}
+.about{
+    background-color: white;
+    margin-top: 5%;
+}
+.tag{
+    margin-top: 5%;
+    padding: 1%;
+    background-color:#FAD12A;
+    border: 2px;
+    border-color: black;
+    /* border-style: dashed; */
+    text-align: center;
+}
+.resume{
+    clip-path: polygon(0 19%, 100% 0, 100% 83%, 0% 100%);
+    background-color: white;
+    margin-top: 5%;
+}
+.edu h6{
+    background-color: #FAD12A;
+    text-align: center;
+}
+.contact{
+    background-color:rgb(226, 218, 131);
+    text-align: center;
+}
+.fa-envelope{
+    color: black;
+    font-size: 100px;
+}
+
